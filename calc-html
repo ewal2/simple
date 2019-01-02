@@ -7,10 +7,12 @@
 </head>
 <body>
 <h1>Kalkulator</h1>
-  <p >Wprowadz pierwsza liczbe:</p>
-  <input class = "p1" value = "p1" type="number">
-  <p>Wprowadz druga liczbe:</p>
-  <input class = "p2" value ="p2" type="number">
+  <label for="a">Wprowadz pierwsza liczbe:</label>
+  <input type="number" id = "a" value = "a" >
+  <br><br>
+  <label for="b">Wprowadz druga liczbe:</label>
+  <input type="number" id = "b" value ="b" >
+  <br><br>
   <div class="dzialania">
      <button class="plus">Dodawanie</button>
      <button class="minus">Odejmowanie</button>
@@ -22,3 +24,7 @@
   <div>
     <p>Wynik: <span>0</span></p>
   </div>
+ 
+  
+</body>
+</html>
