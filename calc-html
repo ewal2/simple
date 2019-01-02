@@ -8,9 +8,9 @@
 <body>
 <h1>Kalkulator</h1>
   <p >Wprowadz pierwsza liczbe:</p>
-  <input class = "p1" type="number">
+  <input class = "p1" value = "p1" type="number">
   <p>Wprowadz druga liczbe:</p>
-  <input class = "p2" type="number">
+  <input class = "p2" value ="p2" type="number">
   <div class="dzialania">
      <button class="plus">Dodawanie</button>
      <button class="minus">Odejmowanie</button>
@@ -22,4 +22,3 @@
   <div>
     <p>Wynik: <span>0</span></p>
   </div>
- 
