@@ -6,8 +6,6 @@ var multiplyButton = document.querySelector(".multi");
 var divideButton = document.querySelector(".divide");
 var resetButton = document.querySelector(".reset");
 var resultDisplay = document.querySelector("p span");
-var resetButton = document.querySelector(".reset");
-
 
 
 plusButton.addEventListener("click", function(){
