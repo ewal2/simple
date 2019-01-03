@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<h1>Kalkulator</h1>
+  <label for="a">Wprowadz pierwsza liczbe:</label>
+  <input type="number" id = "a" value = "a" >
+  <br><br>
+  <label for="b">Wprowadz druga liczbe:</label>
+  <input type="number" id = "b" value ="b" >
+  <br><br>
+  <div class="dzialania">
+     <button class="plus">Dodawanie</button>
+     <button class="minus">Odejmowanie</button>
+     <button class="multi">Mnozenie</button>
+     <button class="divide">Dzielenie</button>
+     <button class="reset">Reset</button>
+
+  </div>
+  <div>
+    <p>Wynik: <span>0</span></p>
+  </div>
+ 
+  
+</body>
+</html>
