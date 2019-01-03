@@ -14,11 +14,11 @@
   <input type="number" id = "b" value ="b" >
   <br><br>
   <div class="dzialania">
-     <button class="plus">Dodawanie</button>
-     <button class="minus">Odejmowanie</button>
-     <button class="multi">Mnozenie</button>
-     <button class="divide">Dzielenie</button>
-     <button class="reset">Reset</button>
+     <button class="plus" type="button">Dodawanie</button>
+     <button class="minus" type="button">Odejmowanie</button>
+     <button class="multi" type="button">Mnozenie</button>
+     <button class="divide" type="button">Dzielenie</button>
+     <button class="reset" type="reset">Reset</button>
 
   </div>
   <div>
