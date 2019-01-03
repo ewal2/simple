@@ -11,12 +11,34 @@ function oblicz(dzialanie) {
     switch(dzialanie){
       case 1: 
      
-      var suma = a + b;
-      document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + suma;
+          document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + (a + b);
 
       break;
+        
+      case 2: 
+     
+          document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + (a - b);
+
+      break;
+        
+      case 3: 
+     
+          document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + (a * b);
+
+      break;
+        
+      case 4: 
+
+        if(b === 0){
+            document.querySelector("#wynik").innerHTML = "Nie wolno dzielic przez 0.";
+        }
+        else{
+           
+            document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + (a / b);
+        }
+        
+      break;
+        
     }
-    
-    
   }
 }
