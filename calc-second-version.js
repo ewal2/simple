@@ -1,5 +1,3 @@
-var a = document.querySelector("#a").value;
-var b = document.querySelector("#b").value;
 
 function suma() {
   var a = document.querySelector("#a").value;
