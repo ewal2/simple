@@ -39,13 +39,15 @@ function oblicz(dzialanie) {
         
       break;
         
+      case 5: 
+     
+           document.querySelector("#a").value = "";
+           document.querySelector("#b").value = "";
+           document.querySelector("#wynik").innerHTML = "";
+  
+      break;
+        
     }
   }
 }
 
-
-function reset(){
-  document.querySelector("#a").value = "";
-  document.querySelector("#b").value = "";
-  document.querySelector("#wynik").innerHTML = "";
-}
