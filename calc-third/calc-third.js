@@ -47,4 +47,5 @@ function oblicz(dzialanie) {
 function reset(){
   document.querySelector("#a").value = "";
   document.querySelector("#b").value = "";
+  document.querySelector("#wynik").innerHTML = "";
 }
