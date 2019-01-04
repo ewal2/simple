@@ -9,28 +9,28 @@ let resultDisplay = document.querySelector("p span");
 
 
 plusButton.addEventListener("click", function(){
-let a = parseInt(document.querySelector("#a").value);
-let b = parseInt(document.querySelector("#b").value); 
+let a = parseFloat(document.querySelector("#a").value);
+let b = parseFloat(document.querySelector("#b").value); 
 resultDisplay.textContent = a + b;
 });
 
 minusButton.addEventListener("click", function(){
-let a = parseInt(document.querySelector("#a").value);
-let b = parseInt(document.querySelector("#b").value);
+let a = parseFloat(document.querySelector("#a").value);
+let b = parseFloat(document.querySelector("#b").value);
   resultDisplay.textContent = a - b;
 });
 
 
 multiplyButton.addEventListener("click", function(){
-let a = parseInt(document.querySelector("#a").value);
-let b = parseInt(document.querySelector("#b").value);
+let a = parseFloat(document.querySelector("#a").value);
+let b = parseFloat(document.querySelector("#b").value);
   resultDisplay.textContent = a * b;
 });
 
 
 divideButton.addEventListener("click", function(){
-let a = parseInt(document.querySelector("#a").value);
-let b = parseInt(document.querySelector("#b").value);
+let a = parseFloat(document.querySelector("#a").value);
+let b = parseFloat(document.querySelector("#b").value);
   resultDisplay.textContent = a / b;
 });
 
