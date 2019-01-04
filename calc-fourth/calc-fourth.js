@@ -60,6 +60,6 @@ reset();
 function reset(){
   a.value = "";
   b.value = "";
-  resultDisplay.textContent = 0;
+  document.querySelector("p span").textContent = 0;
 }
 
