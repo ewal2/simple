@@ -31,8 +31,8 @@ if(a === "" || b === ""){
 
 
 multiplyButton.addEventListener("click", function(){
-let a = parseFloat(document.querySelector("#a").value);
-let b = parseFloat(document.querySelector("#b").value);
+let a = document.querySelector("#a").value;
+let b = document.querySelector("#b").value;
   if(a === "" || b === ""){
   resultDisplay.textContent = "Prosze uzupelnic obie liczby."
 } else{
@@ -44,8 +44,8 @@ let b = parseFloat(document.querySelector("#b").value);
 
 
 divideButton.addEventListener("click", function(){
-let a = parseFloat(document.querySelector("#a").value);
-let b = parseFloat(document.querySelector("#b").value);
+let a = document.querySelector("#a").value;
+let b = document.querySelector("#b").value;
 if(a === "" || b === ""){
   resultDisplay.textContent = "Prosze uzupelnic obie liczby."
 } else{
