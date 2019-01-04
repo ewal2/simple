@@ -5,9 +5,6 @@ let divideButton = document.querySelector(".divide");
 let resetButton = document.querySelector(".reset");
 let resultDisplay = document.querySelector("p span");
 
-
-// parseFloat DRY
-
 plusButton.addEventListener("click", function(){
 let a = document.querySelector("#a").value;
 let b = document.querySelector("#b").value; 
