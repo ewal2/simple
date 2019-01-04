@@ -6,29 +6,53 @@ let resetButton = document.querySelector(".reset");
 let resultDisplay = document.querySelector("p span");
 
 plusButton.addEventListener("click", function(){
-let a = parseFloat(document.querySelector("#a").value);
-let b = parseFloat(document.querySelector("#b").value); 
-resultDisplay.textContent = a + b;  oblicz(1);
+let a = document.querySelector("#a").value;
+let b = document.querySelector("#b").value; 
+if(a === "" || b === ""){
+  resultDisplay.textContent = "Prosze uzupelnic obie liczby."
+}  else {
+  a = parseFloat(a);
+  b = parseFloat(b);
+  resultDisplay.textContent = a + b;  
+  }
 });
 
 minusButton.addEventListener("click", function(){
-let a = parseFloat(document.querySelector("#a").value);
-let b = parseFloat(document.querySelector("#b").value);
-resultDisplay.textContent = a - b;
+let a = document.querySelector("#a").value;
+let b = document.querySelector("#b").value; 
+if(a === "" || b === ""){
+  resultDisplay.textContent = "Prosze uzupelnic obie liczby."
+} else{
+  a = parseFloat(a);
+  b = parseFloat(b);
+  resultDisplay.textContent = a - b;
+  }
 });
 
 
 multiplyButton.addEventListener("click", function(){
 let a = parseFloat(document.querySelector("#a").value);
 let b = parseFloat(document.querySelector("#b").value);
-resultDisplay.textContent = a * b;
+  if(a === "" || b === ""){
+  resultDisplay.textContent = "Prosze uzupelnic obie liczby."
+} else{
+  a = parseFloat(a);
+  b = parseFloat(b);
+  resultDisplay.textContent = a * b;
+  }
 });
 
 
 divideButton.addEventListener("click", function(){
 let a = parseFloat(document.querySelector("#a").value);
 let b = parseFloat(document.querySelector("#b").value);
-resultDisplay.textContent = a / b;
+if(a === "" || b === ""){
+  resultDisplay.textContent = "Prosze uzupelnic obie liczby."
+} else{
+  a = parseFloat(a);
+  b = parseFloat(b);
+  resultDisplay.textContent = a / b;
+  }
 });
 
 resetButton.addEventListener("click", function(){
@@ -40,4 +64,5 @@ function reset(){
   b.value = "";
   resultDisplay.textContent = 0;
 }
+
 
