@@ -9,7 +9,7 @@ function suma() {
     b = parseFloat(b);
     
     var suma = a + b;
-    document.querySelector("#wynik").innerHTML = "Wynik dzialania wynosi: " + suma;
+    document.querySelector("#wynik").innerHTML = "Wynik dzialania to: " + suma;
   }
 }
 
