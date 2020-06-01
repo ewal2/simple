@@ -6,7 +6,7 @@
   <title>Proste obliczenia matematyczne</title>
 </head>
 <body>
-<h1>Proste obliczenia</h1>
+<h1>Proste obliczenia mat</h1>
   <label for="a">Wprowadz pierwsza liczbe:</label>
   <input type="number" id = "a" value = "a" >
   <br><br>
