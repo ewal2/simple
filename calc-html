@@ -6,8 +6,8 @@
   <title>Proste obliczenia</title>
 </head>
 <body>
-<h1>Proste obliczenia</h1>
-  <label for="a">Wprowadz pierwsza:</label>
+<h1>Proste obliczenia matematyczne</h1>
+  <label for="a">Wprowadz pierwsza liczbe:</label>
   <input type="number" id = "a" value = "a" >
   <br><br>
   <label for="b">Wprowadz druga liczbe:</label>
